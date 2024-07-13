@@ -1,0 +1,26 @@
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 1.2em;   /*    em= parent ar font size ar tulonay koto gun  */
+
+}
+.day{
+   background-color: aquamarine;
+   border-radius: 10px;
+   height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+}
