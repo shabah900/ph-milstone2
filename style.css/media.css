@@ -1,0 +1,21 @@
+.card>img{
+    width: 70%;
+    height: 170px;
+    padding : 0 40px 0 40px;
+}
+.card{
+    border: 1px solid red;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ gap: 20px;
+}
+
+ /* simple media query  */
+
+@media screen and (max-width:576px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
