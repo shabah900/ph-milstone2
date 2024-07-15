@@ -1,10 +1,11 @@
 .card>img{
-    width: 70%;
+    width: 80%;
     height: 170px;
     padding : 0 40px 0 40px;
 }
 .card{
     border: 1px solid red;
+    padding: 30px;
 }
 .container{
     display: grid;
